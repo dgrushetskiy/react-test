@@ -35,8 +35,8 @@ const App = () => {
 	</div>
 	);
 };
-const el = (
-	<App/>
-);
+//const el = (
+//	<App/>
+//);
 
-ReactDOM.render(el, document.getElementById('root'));
+ReactDOM.render(<App/>, document.getElementById('root'));
